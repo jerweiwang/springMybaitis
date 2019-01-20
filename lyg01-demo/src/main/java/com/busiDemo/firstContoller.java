@@ -5,7 +5,6 @@ package com.busiDemo;/**
  * @create 2019-01-13 16:56
  **/
 
-import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -20,6 +19,11 @@ public class firstContoller {
     public String getFirstRest(){
         System.out.print("this is first controller");
         return "helloWord";
+    }
+
+    public String getSecondWorkSpace(){
+        System.out.print("this is personal second work space");
+        return "second work spece";
     }
 
 }
