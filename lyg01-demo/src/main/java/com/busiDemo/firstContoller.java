@@ -19,5 +19,9 @@ public class firstContoller {
         System.out.print("===first branch change");
     }
 
+    public String getSecondWorkSpace(){
+        System.out.print("this is personal second work space");
+        return "second work spece";
+    }
 
 }
