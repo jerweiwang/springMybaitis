@@ -5,6 +5,7 @@ package com.busiDemo;/**
  * @create 2019-01-13 16:56
  **/
 
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
@@ -15,9 +16,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class firstContoller {
 
-    public static void main(String[] args) {
-        System.out.print("===first branch change");
+    @RequestMapping("/hello")
+    public String getFirstRest(){
+        System.out.print("this is first controller");
+        return "helloWord";
     }
-
 
 }
